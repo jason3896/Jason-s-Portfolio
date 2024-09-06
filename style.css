@@ -15,15 +15,9 @@
   --main-color: #00ffee;
   --nav-item-color: #a0a0a0;
   --nav-item-hover-color: #00ffee;
-  --nav-item-active-color: var(--main-color);    
+  --nav-item-active-color: #00ffee;    
 }
-.light-mode{
-  /* Light mode color */
-  --bg-color: #f4f4f4;
-  --second-bg-color: #e0e0e0;
-  --text-color: #0d0d0d;
-  --main-color: #0077be;
-}
+
 /* Add styles for the theme toggle button */
 #theme-toggle {
   background-color: transparent;
@@ -43,7 +37,6 @@
 #theme-toggle i {
   font-size: 1.2rem;
 }
-/* If you want to change the icon color in light mode */
 .light-mode #theme-toggle {
   color: var(--main-color);
 }
